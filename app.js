@@ -1,14 +1,14 @@
 const section = document.querySelector('section');
 const logo = document.querySelector('.logo');
-const FPS = 100;
+const FPS = 80;
 
 section.style.height = window.innerHeight + 'px';
 section.style.width = window.innerWidth + 'px';
 
 let xPosition = 10;
 let yPosition = 10;
-let xSpeed = 4;
-let ySpeed = 4;
+let xSpeed = 3;
+let ySpeed = 3;
 
 function update(){
     logo.style.left = xPosition + 'px';
